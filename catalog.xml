@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Ma%20Star/Documents/NetBeansProjects/Ticket_Reservation_WebService/FlightReservationServiceCodeFirst.wsdl" uri="src/conf/xml-resources/web-services/NewWebServiceFromWSDL/wsdl/FlightReservationServiceCodeFirst.wsdl"/>
+    <system systemId="https://desktop-5p2aca9:8181/Ticket_Reservation_WebService/FlightReservationServiceCodeFirst?xsd=1" uri="src/conf/xml-resources/web-services/NewWebServiceFromWSDL/wsdl/desktop-5p2aca9_8181/Ticket_Reservation_WebService/FlightReservationServiceCodeFirst.xsd_1.xsd"/>
+    <system systemId="file:/C:/Users/Ma%20Star/Documents/NetBeansProjects/Ticket_Reservation_WebService_CodeFirst_ContractFirst_Method/FlightReservationServiceContractFirst.wsdl" uri="src/conf/xml-resources/web-services/FlightReservationServiceContractFirstService/wsdl/FlightReservationServiceContractFirst.wsdl"/>
+    <system systemId="file:/C:/Users/Ma%20Star/Documents/NetBeansProjects/Ticket_Reservation_WebService_CodeFirst_ContractFirst_Method/FlightReservationServiceContractFirstSchema.xsd" uri="src/conf/xml-resources/web-services/FlightReservationServiceContractFirstService/wsdl/FlightReservationServiceContractFirstSchema.xsd"/>
+</catalog>

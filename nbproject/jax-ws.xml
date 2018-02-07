@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="FlightReservationServiceCodeFirst">
+      <implementation-class>ticket.reservation.bottomup.FlightReservationServiceCodeFirst</implementation-class>
+    </service>
+    <service name="FlightReservationServiceContractFirstService">
+      <implementation-class>ticket.reservation.topdown.FlightReservationServiceContractFirstService</implementation-class>
+      <wsdl-url>file:/C:/Users/Ma%20Star/Documents/NetBeansProjects/Ticket_Reservation_WebService_CodeFirst_ContractFirst_Method/FlightReservationServiceContractFirst.wsdl</wsdl-url>
+      <local-wsdl-file>FlightReservationServiceContractFirst.wsdl</local-wsdl-file>
+      <service-name>FlightReservationServiceContractFirst</service-name>
+      <port-name>FlightReservationServiceContractFirstPort</port-name>
+      <package-name>ticket.reservation.topdown</package-name>
+      <catalog-file>catalog.xml</catalog-file>
+      <use-provider>false</use-provider>
+      <wsimport-options>
+        <wsimport-option>
+          <wsimport-option-name>extension</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>verbose</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>fork</wsimport-option-name>
+          <wsimport-option-value>false</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xnocompile</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xendorsed</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+      </wsimport-options>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>true</jsr109>
+</jax-ws>
